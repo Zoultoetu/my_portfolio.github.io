@@ -1,69 +1,30 @@
-/* Style général */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-}
-
-/* Barre de navigation */
-nav {
-    background: #333;
-    color: white;
-    padding: 1rem;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
+/* Navigation */
+.navbar-dark .navbar-brand {
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+.navbar-dark .nav-link {
+    font-size: 1.1rem;
 }
 
-/* Header */
+/* Header principal */
 header {
-    text-align: center;
-    padding: 50px 20px;
-    background: linear-gradient(to right, #6a11cb, #2575fc);
+    background: linear-gradient(to right, #007bff, #00d4ff);
     color: white;
+    padding: 60px 20px;
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
 
-header p {
+header .btn {
     font-size: 1.2rem;
-    margin: 20px 0;
 }
 
-.button {
-    background: white;
-    color: #6a11cb;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.button:hover {
-    background: #f0f0f0;
+/* Espacement et marges */
+main.container {
+    margin-top: 30px;
 }
