@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Barre de navigation Bootstrap -->
+    <!-- Barre de navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Mon Portfolio</a>
@@ -34,41 +34,59 @@
         </div>
     </nav>
 
-    <!-- Section principale -->
+    <!-- Contenu principal -->
     <main class="container my-5">
-        <h2 class="text-center mb-4">Mes compétences</h2>
-        
+        <h1 class="text-center mb-4">Mes compétences</h1>
+
         <!-- Compétences techniques -->
         <section class="mb-5">
-            <h3>Compétences techniques</h3>
-            <ul class="list-group">
-                <li class="list-group-item">Analyse des risques pour définir une politique de sécurité (AC34.01)</li>
-                <li class="list-group-item">Création et gestion de documentations techniques (AC31.02)</li>
-                <li class="list-group-item">Développement et déploiement de solutions en PHP, HTML, CSS et JavaScript</li>
-                <li class="list-group-item">Configuration de réseaux sécurisés (VLAN, QoS, supervision)</li>
-                <li class="list-group-item">Gestion de projets informatiques et respect des délais (AC31.06)</li>
-            </ul>
+            <h2>Compétences techniques</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">Analyse des risques pour définir une politique de sécurité</li>
+                        <li class="list-group-item">Création et gestion de documentations techniques</li>
+                        <li class="list-group-item">Configuration d’équipements réseau (switchs, routeurs, AP)</li>
+                        <li class="list-group-item">Gestion de projet réseau et respect des délais</li>
+                        <li class="list-group-item">Supervision et optimisation des réseaux Wi-Fi</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">Conception de réseaux avec VLAN, QoS et supervision</li>
+                        <li class="list-group-item">Administration des infrastructures réseau et sécurité</li>
+                        <li class="list-group-item">Déploiement de solutions réseau dans un environnement hospitalier</li>
+                        <li class="list-group-item">Automatisation des tâches réseau avec des scripts</li>
+                        <li class="list-group-item">Sensibilisation à la cybersécurité et gestion des incidents</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
         <!-- Soft skills -->
         <section class="mb-5">
-            <h3>Soft skills</h3>
+            <h2>Soft Skills</h2>
             <ul class="list-group">
-                <li class="list-group-item">Communication efficace avec les équipes et les clients (AC31.05)</li>
-                <li class="list-group-item">Travail en équipe et collaboration en mode projet</li>
-                <li class="list-group-item">Capacité à former et guider les utilisateurs (AC33.03)</li>
-                <li class="list-group-item">Gestion des priorités et des situations critiques</li>
+                <li class="list-group-item">Autonomie et gestion des priorités</li>
+                <li class="list-group-item">Capacité à collaborer efficacement en équipe</li>
+                <li class="list-group-item">Excellente communication avec les parties prenantes</li>
+                <li class="list-group-item">Adaptabilité et gestion des imprévus</li>
+                <li class="list-group-item">Capacité à former les utilisateurs et vulgariser des concepts techniques</li>
             </ul>
         </section>
 
         <!-- Langues -->
         <section>
-            <h3>Langues</h3>
+            <h2>Langues</h2>
             <ul class="list-group">
                 <li class="list-group-item">Français : Langue maternelle</li>
-                <li class="list-group-item">Anglais : Niveau professionnel (B2+)</li>
+                <li class="list-group-item">Anglais : Niveau B1+ (professionnel)</li>
+                <li class="list-group-item">Espagnol : Niveau B1</li>
             </ul>
         </section>
     </main>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
