@@ -1,22 +1,30 @@
-/* Barre de navigation */
+/* ✅ Barre de navigation */
+.navbar-dark {
+    background-color: #1E3A8A; /* Bleu foncé */
+}
+
 .navbar-dark .navbar-brand {
-    background: linear-gradient(to right, #8ca87c, #8ca87c);
+    color: white;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
 .navbar-dark .nav-link {
-    background: linear-gradient(to right, #8ca87c, #8ca87c);
+    color: #E0E7FF; /* Bleu clair */
     font-size: 1.1rem;
 }
 
-/* Header */
+.navbar-dark .nav-link:hover {
+    color: #A5B4FC; /* Effet hover plus clair */
+}
+
+/* ✅ En-tête */
 header {
-    background: linear-gradient(to right, #8ca87c, #8ca87c);
+    background: linear-gradient(to right, #1E3A8A, #2563EB); /* Dégradé bleu foncé → bleu clair */
     color: white;
+    text-align: center;
     padding: 60px 20px;
     animation: fadeIn 1.5s ease-out;
-
 }
 
 header h1 {
@@ -25,25 +33,35 @@ header h1 {
 }
 
 header .btn {
+    background-color: #2563EB; /* Bleu clair */
+    border: none;
     font-size: 1.2rem;
+    padding: 12px 24px;
 }
 
-/* Conteneur principal */
-main.container {
-    margin-top: 30px;
+header .btn:hover {
+    background-color: #1E40AF; /* Bleu foncé */
 }
 
-/* Sections */
+/* ✅ Arrière-plan */
+body {
+    background-color: #F3F4F6; /* Gris clair */
+    color: #374151; /* Gris foncé */
+}
+
+/* ✅ Sections */
 h2 {
-    color: #333;
+    color: #1E3A8A; /* Bleu foncé */
     margin-bottom: 20px;
 }
 
+/* ✅ Cartes */
 .card {
     border: none;
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: white;
 }
 
 .card:hover {
@@ -54,46 +72,32 @@ h2 {
 .card-title {
     font-size: 1.25rem;
     font-weight: bold;
-    color: #8ca87c;
+    color: #2563EB; /* Bleu clair */
 }
 
+/* ✅ Boutons */
 .btn-primary {
-    background-color: #8ca87c;
-    border-color: #8ca87c;
+    background-color: #2563EB; /* Bleu clair */
+    border-color: #2563EB;
 }
 
 .btn-primary:hover {
-    background-color: #8ca87c;
-    border-color: #8ca87c;
+    background-color: #1E40AF; /* Bleu foncé */
+    border-color: #1E40AF;
 }
 
+/* ✅ Animation */
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
-
-html, body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex: 1; /* Permet au contenu principal de prendre l'espace disponible */
-}
-
+/* ✅ Footer */
 footer {
-    background-color: #8ca87c; /* Couleur de fond du footer */
+    background-color: #1E3A8A; /* Bleu foncé */
     color: white;
     text-align: center;
     padding: 15px 0;
     width: 100%;
     position: relative;
-    bottom: 0;
 }
