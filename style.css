@@ -52,17 +52,17 @@ h2 {
 .card-title {
     font-size: 1.25rem;
     font-weight: bold;
-    color: #007bff;
+    color: #8ca87c;
 }
 
 .btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #8ca87c;
+    border-color: #8ca87c;
 }
 
 .btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
+    background-color: #8ca87c;
+    border-color: #8ca87c;
 }
 
 @keyframes fadeIn {
@@ -87,7 +87,7 @@ main {
 }
 
 footer {
-    background-color: #343a40; /* Couleur de fond du footer */
+    background-color: #8ca87c; /* Couleur de fond du footer */
     color: white;
     text-align: center;
     padding: 15px 0;
