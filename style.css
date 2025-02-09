@@ -43,7 +43,7 @@ header p {
 
 /* ✅ Bouton du CV */
 header .btn {
-    background-color: #8CA87C !important; /* Vert olive */
+    background-color: #5d5340 !important; /* Vert olive */
     border: none;
     font-size: 1.2rem;
     padding: 12px 24px;
@@ -51,7 +51,9 @@ header .btn {
 }
 
 header .btn:hover {
-    background-color: #6F8B5F !important; /* Vert plus foncé */
+    background-color: #363025 !important; /* Vert plus foncé */
+    color: white;
+
 }
 
 /* ✅ Arrière-plan */
