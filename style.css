@@ -1,21 +1,34 @@
-/* ✅ Barre de navigation */
-.navbar-dark {
-    background-color: #8CA87C; /* Vert olive */
+/* ✅ Général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.navbar-dark .navbar-brand {
+body {
+    background-color: #F5F5DC; /* Beige clair, issu du CV */
+    color: #333333; /* Gris foncé pour le texte */
+    font-family: Arial, sans-serif;
+}
+
+/* ✅ Barre de navigation */
+.navbar {
+    background-color: #8CA87C !important; /* Vert olive */
+}
+
+.navbar .navbar-brand {
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-.navbar-dark .nav-link {
-    color: #F5F5DC; /* Beige clair */
+.navbar .nav-link {
+    color: #F5F5DC !important; /* Beige clair */
     font-size: 1.1rem;
 }
 
-.navbar-dark .nav-link:hover {
-    color: #E0E7D6; /* Effet hover plus clair */
+.navbar .nav-link:hover {
+    color: #E0E7D6 !important; /* Effet hover plus clair */
 }
 
 /* ✅ En-tête */
@@ -33,7 +46,7 @@ header h1 {
 }
 
 header .btn {
-    background-color: #8CA87C; /* Vert olive */
+    background-color: #8CA87C !important; /* Vert olive */
     border: none;
     font-size: 1.2rem;
     padding: 12px 24px;
@@ -41,57 +54,19 @@ header .btn {
 }
 
 header .btn:hover {
-    background-color: #6F8B5F; /* Vert plus foncé */
-}
-
-/* ✅ Arrière-plan */
-body {
-    background-color: #F5F5DC; /* Beige clair */
-    color: #333333; /* Gris foncé pour le texte */
+    background-color: #6F8B5F !important; /* Vert plus foncé */
 }
 
 /* ✅ Sections */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
 h2 {
     color: #8CA87C; /* Vert olive */
     margin-bottom: 20px;
-}
-
-/* ✅ Cartes */
-.card {
-    border: none;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    background-color: white;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
-
-.card-title {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: #8CA87C; /* Vert olive */
-}
-
-/* ✅ Boutons */
-.btn-primary {
-    background-color: #8CA87C; /* Vert olive */
-    border-color: #8CA87C;
-    color: white;
-}
-
-.btn-primary:hover {
-    background-color: #6F8B5F; /* Vert plus foncé */
-    border-color: #6F8B5F;
-}
-
-/* ✅ Animation */
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
 }
 
 /* ✅ Footer */
@@ -102,4 +77,10 @@ footer {
     padding: 15px 0;
     width: 100%;
     position: relative;
+}
+
+/* ✅ Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
