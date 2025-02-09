@@ -10,7 +10,7 @@
 
 /* Header */
 header {
-    background: linear-gradient(to right, #007bff, #00d4ff);
+    background: linear-gradient(to right, #8ca87c, #8ca87c);
     color: white;
     padding: 60px 20px;
 }
@@ -61,4 +61,18 @@ h2 {
 .btn-primary:hover {
     background-color: #0056b3;
     border-color: #0056b3;
+}
+
+/* Exemple d'animation fade-in pour la section de bienvenue */
+header {
+    animation: fadeIn 1.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
