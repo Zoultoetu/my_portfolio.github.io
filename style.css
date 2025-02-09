@@ -1,6 +1,6 @@
 /* ✅ Barre de navigation */
 .navbar-dark {
-    background-color: #1E3A8A; /* Bleu foncé */
+    background-color: #8CA87C; /* Vert olive */
 }
 
 .navbar-dark .navbar-brand {
@@ -10,17 +10,17 @@
 }
 
 .navbar-dark .nav-link {
-    color: #E0E7FF; /* Bleu clair */
+    color: #F5F5DC; /* Beige clair */
     font-size: 1.1rem;
 }
 
 .navbar-dark .nav-link:hover {
-    color: #A5B4FC; /* Effet hover plus clair */
+    color: #E0E7D6; /* Effet hover plus clair */
 }
 
 /* ✅ En-tête */
 header {
-    background: linear-gradient(to right, #1E3A8A, #2563EB); /* Dégradé bleu foncé → bleu clair */
+    background: linear-gradient(to right, #8CA87C, #A5C29F); /* Dégradé vert olive */
     color: white;
     text-align: center;
     padding: 60px 20px;
@@ -33,25 +33,26 @@ header h1 {
 }
 
 header .btn {
-    background-color: #2563EB; /* Bleu clair */
+    background-color: #8CA87C; /* Vert olive */
     border: none;
     font-size: 1.2rem;
     padding: 12px 24px;
+    color: white;
 }
 
 header .btn:hover {
-    background-color: #1E40AF; /* Bleu foncé */
+    background-color: #6F8B5F; /* Vert plus foncé */
 }
 
 /* ✅ Arrière-plan */
 body {
-    background-color: #F3F4F6; /* Gris clair */
-    color: #374151; /* Gris foncé */
+    background-color: #F5F5DC; /* Beige clair */
+    color: #333333; /* Gris foncé pour le texte */
 }
 
 /* ✅ Sections */
 h2 {
-    color: #1E3A8A; /* Bleu foncé */
+    color: #8CA87C; /* Vert olive */
     margin-bottom: 20px;
 }
 
@@ -72,18 +73,19 @@ h2 {
 .card-title {
     font-size: 1.25rem;
     font-weight: bold;
-    color: #2563EB; /* Bleu clair */
+    color: #8CA87C; /* Vert olive */
 }
 
 /* ✅ Boutons */
 .btn-primary {
-    background-color: #2563EB; /* Bleu clair */
-    border-color: #2563EB;
+    background-color: #8CA87C; /* Vert olive */
+    border-color: #8CA87C;
+    color: white;
 }
 
 .btn-primary:hover {
-    background-color: #1E40AF; /* Bleu foncé */
-    border-color: #1E40AF;
+    background-color: #6F8B5F; /* Vert plus foncé */
+    border-color: #6F8B5F;
 }
 
 /* ✅ Animation */
@@ -94,7 +96,7 @@ h2 {
 
 /* ✅ Footer */
 footer {
-    background-color: #1E3A8A; /* Bleu foncé */
+    background-color: #8CA87C; /* Vert olive */
     color: white;
     text-align: center;
     padding: 15px 0;
