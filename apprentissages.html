@@ -1,3 +1,4 @@
+<!-- apprentissages.html -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -8,75 +9,74 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Barre de navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Mon Portfolio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
                     <li class="nav-item"><a class="nav-link" href="cv.html">Mon CV</a></li>
                     <li class="nav-item"><a class="nav-link" href="interests.html">Centres d'intérêt</a></li>
                     <li class="nav-item"><a class="nav-link" href="skills.html">Compétences</a></li>
                     <li class="nav-item"><a class="nav-link active" href="apprentissages.html">Apprentissages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projets.html">Projets</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Contenu principal -->
     <main class="container my-5">
         <h1 class="text-center mb-4">Mes Apprentissages Critiques</h1>
-        <p class="text-center mb-5">Découvrez mes compétences clés et mes réflexions personnelles sur leur importance dans mon parcours.</p>
-
-        <!-- Section des compétences critiques -->
+        <p class="text-center mb-5">Découvrez mes compétences clés et mes réflexions personnelles.</p>
+        
         <div class="row">
-            <!-- Exemple de compétence -->
-            <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
+            <div class="col-md-6 mb-4">
+                <div class="card shadow-sm">
                     <div class="card-body">
-                        <h5 class="card-title">Gestion de projets</h5>
-                        <p class="card-text">Capacité à coordonner des équipes et à livrer des projets dans les délais impartis.</p>
-                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#analyse1" aria-expanded="false" aria-controls="analyse1">
-                            Analyse Réflexive
-                        </button>
+                        <h5 class="card-title">AC31.01 - Concevoir un projet de réseau</h5>
+                        <p class="card-text">Concevoir un projet réseau en tenant compte des contraintes techniques et organisationnelles.</p>
+                        <div class="progress mb-2">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 75%">75%</div>
+                        </div>
+                        <a href="documents/AC31.pdf" class="btn btn-primary" target="_blank">Voir le document</a>
+                        <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#analyse1">Analyse Réflexive</button>
                         <div class="collapse mt-3" id="analyse1">
-                            <p class="card-text">Cette compétence m'a permis d'améliorer ma gestion du temps, mon leadership, et ma capacité à anticiper les risques.</p>
+                            <p class="card-text">Concevoir ce projet m'a permis d'approfondir ma compréhension des aspects critiques d'un réseau en environnement hospitalier. La haute disponibilité et la sécurité étaient des priorités, car une panne réseau aurait des conséquences graves sur le service de soins. J’ai appris à combiner ces exigences tout en optimisant les coûts et en assurant une gestion fiable du réseau. Les tests effectués ont montré l’efficacité de la solution, mais des améliorations pourraient être faites en ajoutant une surveillance proactive et des outils d’analyse de performance en temps réel.</p>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- Ajouter d'autres compétences de manière similaire -->
-            <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
+            <div class="col-md-6 mb-4">
+                <div class="card shadow-sm">
                     <div class="card-body">
-                        <h5 class="card-title">Automatisation des tâches</h5>
-                        <p class="card-text">Création de scripts pour réduire les tâches répétitives et améliorer l'efficacité.</p>
-                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#analyse2" aria-expanded="false" aria-controls="analyse2">
-                            Analyse Réflexive
-                        </button>
+                        <h5 class="card-title">AC31.02 - Réaliser la documentation technique</h5>
+                        <p class="card-text">Créer une documentation détaillée pour assurer le suivi et la compréhension du projet.</p>
+                        <div class="progress mb-2">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 100%">100%</div>
+                        </div>
+                        <a href="documents/AC31.pdf" class="btn btn-primary" target="_blank">Voir le document</a>
+                        <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#analyse2">Analyse Réflexive</button>
                         <div class="collapse mt-3" id="analyse2">
-                            <p class="card-text">Cette compétence m'a appris à identifier les processus chronophages et à les optimiser avec des outils modernes.</p>
+                            <p class="card-text">La création de la documentation m’a permis de mieux formaliser et structurer mes idées.</p>
+                            <p class="text-muted">Cet apprentissage critique souligne l'importance d'une documentation claire pour un projet.</p>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- Exemple additionnel -->
-            <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
+            <div class="col-md-6 mb-4">
+                <div class="card shadow-sm">
                     <div class="card-body">
-                        <h5 class="card-title">Sensibilisation à la cybersécurité</h5>
-                        <p class="card-text">Organisation de sessions pour former les utilisateurs aux bonnes pratiques en cybersécurité.</p>
-                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#analyse3" aria-expanded="false" aria-controls="analyse3">
-                            Analyse Réflexive
-                        </button>
+                        <h5 class="card-title">AC31.03 - Sécuriser un réseau</h5>
+                        <p class="card-text">Mettre en place des mesures de sécurité adaptées pour garantir l’intégrité du réseau.</p>
+                        <div class="progress mb-2">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 60%">60%</div>
+                        </div>
+                        <a href="documents/AC31.03.pdf" class="btn btn-primary" target="_blank">Voir le document</a>
+                        <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#analyse3">Analyse Réflexive</button>
                         <div class="collapse mt-3" id="analyse3">
-                            <p class="card-text">Former les autres m'a permis de consolider mes propres connaissances et de renforcer la sécurité des systèmes.</p>
+                            <p class="card-text">J’ai appris à analyser les vulnérabilités d’un réseau et à y apporter des solutions adaptées.</p>
                         </div>
                     </div>
                 </div>
@@ -84,15 +84,10 @@
         </div>
     </main>
 
-    <!-- Bootstrap JS -->
+    <footer class="bg-dark text-white text-center py-3 fixed-bottom">
+        <p>© 2025 Mon Portfolio - Tous droits réservés.</p>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-<footer class="bg-dark text-white text-center py-3">
-    <p>© 2025 Mon Portfolio - Tous droits réservés.</p>
-    <div>
-        <a href="https://www.linkedin.com/in/antoine-fayolle-zoulto" class="text-white mx-2">LinkedIn</a>
-        <a href="https://github.com/Zoultoetu" class="text-white mx-2">GitHub</a>
-    </div>
-</footer>
