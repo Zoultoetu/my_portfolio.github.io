@@ -23,7 +23,6 @@ header {
     background-color: #8CA87C !important; /* Vert olive */    color: white;
     text-align: center;
     padding: 60px 20px;
-    animation: fadeIn 1.5s ease-out;
 }
 
 header h1 {
