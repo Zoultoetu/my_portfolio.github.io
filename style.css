@@ -1,10 +1,12 @@
 /* Barre de navigation */
 .navbar-dark .navbar-brand {
+    background: linear-gradient(to right, #8ca87c, #8ca87c);
     font-size: 1.5rem;
     font-weight: bold;
 }
 
 .navbar-dark .nav-link {
+    background: linear-gradient(to right, #8ca87c, #8ca87c);
     font-size: 1.1rem;
 }
 
