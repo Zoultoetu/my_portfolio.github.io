@@ -11,6 +11,7 @@
             position: relative;
             overflow: hidden;
             border: none;
+            cursor: pointer; /* Change le curseur pour montrer que c'est cliquable */
         }
 
         .card-img-overlay {
@@ -56,43 +57,28 @@
         </div>
     </nav>
     
-    <!-- Section Projets avec images -->
+    <!-- Section Projets avec images cliquables -->
     <section id="projets" class="container my-5">
         <h2 class="text-center mb-4">Mes Projets</h2>
         <div class="row">
             <div class="col-md-4">
-                <div class="card">
+                <div class="card" onclick="window.open('https://monprojet1.com', '_blank')">
                     <img src="files/CCNA.jpg" class="card-img-top" alt="Projet 1">
                     <div class="card-img-overlay">Projet 1</div>
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Projet 1</h5>
-                        <p class="card-text">Description du projet.</p>
-                        <a href="https://monprojet1.com" class="btn btn-primary" target="_blank">Voir le projet</a>
-                    </div>
                 </div>
             </div>
             
             <div class="col-md-4">
-                <div class="card">
-                    <img src="files/ansible-icon.png" class="card-img-top" alt="Projet 2">
+                <div class="card" onclick="window.open('https://monprojet2.com', '_blank')">
+                    <img src="projet2.jpg" class="card-img-top" alt="Projet 2">
                     <div class="card-img-overlay">Projet 2</div>
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Projet 2</h5>
-                        <p class="card-text">Description du projet.</p>
-                        <a href="https://monprojet2.com" class="btn btn-primary" target="_blank">Voir le projet</a>
-                    </div>
                 </div>
             </div>
             
             <div class="col-md-4">
-                <div class="card">
+                <div class="card" onclick="window.open('https://monprojet3.com', '_blank')">
                     <img src="projet3.jpg" class="card-img-top" alt="Projet 3">
                     <div class="card-img-overlay">Projet 3</div>
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Projet 3</h5>
-                        <p class="card-text">Description du projet.</p>
-                        <a href="https://monprojet3.com" class="btn btn-primary" target="_blank">Voir le projet</a>
-                    </div>
                 </div>
             </div>
         </div>
