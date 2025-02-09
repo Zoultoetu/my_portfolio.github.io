@@ -20,8 +20,7 @@
 
 /* ✅ En-tête */
 header {
-    background-color: linear-gradient(to right, #8CA87C, #A5C29F) !important; /* Dégradé vert olive */
-    color: white;
+    background-color: #8CA87C !important; /* Vert olive */    color: white;
     text-align: center;
     padding: 60px 20px;
     animation: fadeIn 1.5s ease-out;
