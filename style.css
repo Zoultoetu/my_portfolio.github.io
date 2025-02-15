@@ -19,10 +19,6 @@
 }
 
 /* ✅ En-tête */
-.bg-primary {
-    background-color: #8CA87C !important; /* Vert olive */
-    border-color: #8CA87C !important;
-}
 
 header {
     background-color: #8CA87C !important; /* Vert olive */
@@ -38,6 +34,11 @@ header h1 {
 
 header p {
     font-size: 1.2rem;
+}
+
+.bg-primary {
+    background-color: #8CA87C !important; /* Vert olive */
+    border-color: #8CA87C !important;
 }
 
 /* ✅ Bouton du CV */
