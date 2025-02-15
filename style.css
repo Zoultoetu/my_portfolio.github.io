@@ -20,7 +20,8 @@
 
 /* ✅ En-tête */
 header {
-    background-color: #8CA87C !important; /* Vert olive */    color: white;
+    background-color: #8CA87C !important; /* Vert olive */
+    color: white;
     text-align: center;
     padding: 60px 20px;
 }
@@ -34,14 +35,9 @@ header p {
     font-size: 1.2rem;
 }
 
-/* ✅ Correction du problème de `bg-primary` dans le HTML */
-.bg-primary {
-    background: none !important; /* Désactive la classe Bootstrap */
-}
-
 /* ✅ Bouton du CV */
 header .btn {
-    background-color: #5d5340 !important; /* Vert olive */
+    background-color: #5d5340 !important; /* Marron foncé */
     border: none;
     font-size: 1.2rem;
     padding: 12px 24px;
@@ -49,20 +45,19 @@ header .btn {
 }
 
 header .btn:hover {
-    background-color: #363025 !important; /* Vert plus foncé */
+    background-color: #363025 !important; /* Marron encore plus foncé */
     color: white;
-
 }
 
 /* ✅ Arrière-plan */
 body {
-    background-color: #8CA87C; /* Beige clair */
+    background-color: #F5F5DC; /* Beige clair */
     color: #333333; /* Gris foncé pour le texte */
 }
 
 /* ✅ Sections */
 h2 {
-    color: #8CA87C; /* Vert olive */
+    color: #5d5340; /* Marron foncé */
     margin-bottom: 20px;
 }
 
@@ -83,19 +78,19 @@ h2 {
 .card-title {
     font-size: 1.25rem;
     font-weight: bold;
-    color: #8CA87C; /* Vert olive */
+    color: #5d5340; /* Marron foncé */
 }
 
 /* ✅ Boutons */
 .btn-primary {
-    background-color: #8CA87C; /* Vert olive */
-    border-color: #8CA87C;
+    background-color: #5d5340; /* Marron foncé */
+    border-color: #5d5340;
     color: white;
 }
 
 .btn-primary:hover {
-    background-color: #6F8B5F; /* Vert plus foncé */
-    border-color: #6F8B5F;
+    background-color: #4a3f2a; /* Marron plus foncé */
+    border-color: #4a3f2a;
 }
 
 /* ✅ Animation */
@@ -106,10 +101,21 @@ h2 {
 
 /* ✅ Footer */
 footer {
-    background-color: #8CA87C; /* Vert olive */
+    background-color: #5d5340; /* Marron foncé */
     color: white;
     text-align: center;
     padding: 15px 0;
     width: 100%;
     position: relative;
+}
+
+/* ✅ Liens dans le footer */
+footer a {
+    color: #F5F5DC; /* Beige clair */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #E0E7D6; /* Effet hover plus clair */
 }
