@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <style>
-        html, body {
-            height: 50%;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-        }
-        main {
-            flex: 1; /* Permet de prendre tout l'espace disponible */
-        }
-        footer {
-            background-color: #212529; /* Couleur Bootstrap bg-dark */
-            color: white;
-            text-align: center;
-            padding: 15px 0;
-        }
-    </style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Page d'accueil</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Structure globale */
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Permet au contenu principal de s'étendre et pousse le footer en bas */
+        main {
+            flex: 1;
+        }
+
+        /* Style du footer */
+        footer {
+            background-color: #212529;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+    </style>
 </head>
 <body>
+
     <!-- Barre de navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -44,22 +50,28 @@
         </div>
     </nav>
 
+    <!-- En-tête -->
     <header class="text-white text-center py-5" style="background-color: #8CA87C;">
         <div class="container">
             <h1>Bienvenue sur mon portfolio</h1>
             <p class="lead">Explorez mes projets, compétences et centres d'intérêt.</p>
-            <a href="cv.html" class="btn btn-light btn-lg mt-3" style="background-color: #5d5340; border: none; font-size: 1.2rem; padding: 12px 24px; color: white;" onmouseover="this.style.backgroundColor='#363025'"  onmouseout="this.style.backgroundColor='#5d5340'">
-            Voir mon CV</a>
+            <a href="cv.html" class="btn btn-light btn-lg mt-3" 
+               style="background-color: #5d5340; border: none; font-size: 1.2rem; padding: 12px 24px; color: white;"
+               onmouseover="this.style.backgroundColor='#363025'"  
+               onmouseout="this.style.backgroundColor='#5d5340'">
+               Voir mon CV
+            </a>
         </div>
     </header>    
-    
 
-    <section class="container my-5 text-center">
+    <!-- Contenu principal -->
+    <main class="container my-5 text-center">
         <h2>À propos de moi</h2>
         <p>Je suis un jeune adulte ambitieux à la recherche d'une entreprise qui saura m'accompagner dans mon développement professionnel. Je possède le permis B.</p>
-    </section>
+    </main>
 
-    <footer class="bg-dark text-white text-center py-3">
+    <!-- Pied de page toujours en bas -->
+    <footer>
         <p>© 2025 Mon Portfolio - Tous droits réservés.</p>
         <div>
             <a href="https://www.linkedin.com/in/antoine-fayolle-zoulto" class="text-white mx-2">LinkedIn</a>
