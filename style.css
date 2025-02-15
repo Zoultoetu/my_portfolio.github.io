@@ -19,6 +19,11 @@
 }
 
 /* ✅ En-tête */
+.bg-primary {
+    background-color: #8CA87C !important; /* Vert olive */
+    border-color: #8CA87C !important;
+}
+
 header {
     background-color: #8CA87C !important; /* Vert olive */
     color: white;
